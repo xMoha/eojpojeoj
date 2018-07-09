@@ -22,7 +22,7 @@ npm install queue
 
 
 client.on('ready', function(){
-    var ms = 1000 ;
+    var ms = 3000 ;
     var setGame = [`${prefix}help | Bot ON ${bot.guilds.size} Servers! `,`${prefix}invite | Bot ON ${bot.guilds.size} Servers!`];
     var i = -1;
     var j = 0;
