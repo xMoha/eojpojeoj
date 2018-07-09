@@ -22,7 +22,7 @@ npm install queue
 
 
 client.on('ready', function(){
-    var ms = 3000 ;
+    var ms = 10000 ;
     var setGame = [`${prefix}help | Bot ON ${bot.guilds.size} Servers! `,`${prefix}invite | Bot ON ${bot.guilds.size} Servers!`];
     var i = -1;
     var j = 0;
@@ -35,7 +35,7 @@ client.on('ready', function(){
         }
         i = i+j;
         client.user.setGame(setGame[i],`https://www.google.se/imgres?imgurl=https%3A%2F%2Fcdn2.macworld.co.uk%2Fcmsdata%2Fslideshow%2F3621400%2FBest_Mac_games_Call_of_Duty_Black_Ops_800_thumb800.jpg&imgrefurl=https%3A%2F%2Fwww.macworld.co.uk%2Ffeature%2Fiosapps%2Ften-best-shooting-games-for-iphone-ipad-ios-3621400%2F&docid=XZQ_3nOfIukyPM&tbnid=UyNo9z6kmeWdlM%3A&vet=10ahUKEwjCt7Hs95LcAhWCJJoKHQpFABQQMwhFKA8wDw..i&w=800&h=436&bih=635&biw=1366&q=gun%20games&ved=0ahUKEwjCt7Hs95LcAhWCJJoKHQpFABQQMwhFKA8wDw&iact=mrc&uact=8`);
-    }, ms);1000
+    }, ms);7000
 
 });
 
