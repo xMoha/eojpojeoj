@@ -23,7 +23,7 @@ npm install queue
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [`${prefix}help | Bot ON ${bot.guilds.size} Servers! `,`${prefix}invite | Bot ON ${bot.guilds.size} Servers!`];
+    var setGame = [`${prefix}help | Bot ON ${client.guilds.size} Servers! `,`${prefix}invite | Bot ON ${client.guilds.size} Servers!`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -40,7 +40,7 @@ client.on('ready', function(){
 });
 
 client.on('ready', () => {
-  console.log(`Logged in as ${bot.user.tag}!`);
+  console.log(`Logged in as ${client.user.tag}!`);
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -48,13 +48,13 @@ client.on('ready', () => {
   console.log('╚[═════════════════════════════════════════════════════════════════]╝')
   console.log('')
   console.log('╔[════════════════════════════════════]╗');
-  console.log(`Logged in as * [ " ${bot.user.username} " ]`);
+  console.log(`Logged in as * [ " ${cilent.user.username} " ]`);
   console.log('')
   console.log('Informations :')
   console.log('')
-  console.log(`servers! [ " ${bot.guilds.size} " ]`);
-  console.log(`Users! [ " ${bot.users.size} " ]`);
-  console.log(`channels! [ " ${bot.channels.size} " ]`);
+  console.log(`servers! [ " ${cilent.guilds.size} " ]`);
+  console.log(`Users! [ " ${cilent.users.size} " ]`);
+  console.log(`channels! [ " ${cilent.channels.size} " ]`);
   console.log('╚[════════════════════════════════════]╝')
   console.log('')
   console.log('╔[════════════]╗')
