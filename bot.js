@@ -48,13 +48,13 @@ client.on('ready', () => {
   console.log('╚[═════════════════════════════════════════════════════════════════]╝')
   console.log('')
   console.log('╔[════════════════════════════════════]╗');
-  console.log(`Logged in as * [ " ${cilent.user.username} " ]`);
+  console.log(`Logged in as * [ " ${client.user.username} " ]`);
   console.log('')
   console.log('Informations :')
   console.log('')
-  console.log(`servers! [ " ${cilent.guilds.size} " ]`);
-  console.log(`Users! [ " ${cilent.users.size} " ]`);
-  console.log(`channels! [ " ${cilent.channels.size} " ]`);
+  console.log(`servers! [ " ${client.guilds.size} " ]`);
+  console.log(`Users! [ " ${client.users.size} " ]`);
+  console.log(`channels! [ " ${client.channels.size} " ]`);
   console.log('╚[════════════════════════════════════]╝')
   console.log('')
   console.log('╔[════════════]╗')
